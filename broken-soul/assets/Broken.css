@@ -1,0 +1,232 @@
+
+@font-face {
+    font-family: "Norse";
+    src: url("../assets/fonts/NorseBold-2Kge.otf");
+}
+
+.window-app .window-content {
+	background: url(../images/fondob.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.titulorojo {
+	width:auto;
+	font-family:'Norse';
+	font-size: 20px;
+	color:white;
+	border-width: 10px;
+	background-color:#681309;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../images/Marcorojo.webp);
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+.titulorojo p{
+width:auto;
+margin: 0px;
+}
+
+.titulonormal {
+	font-family:'Norse';
+	font-size: 20px;
+	color: #671308;
+}
+.titulonormal h1{
+	margin-top:10px;
+	font-size: 20px;
+	border:0px;
+}
+.titulonormal h2{
+	font-size: 15px;
+	border:0px;
+	color: black;
+}
+.titulonormal h3{
+	font-size: 13px;
+	border:0px;
+	margin-top:-5px;
+}
+.titulonormal p{
+	font-family:'Norse';
+	font-size: 15px;
+	color: black;
+	text-align: justify;
+}
+.titulonormal strong{
+	font-family:'Norse';
+	font-size: 15px;
+	color: #671308;
+	text-align: justify;
+}
+.titulodesc {
+	font-family:'Norse';
+	font-size: 18px;
+}
+
+.textdescrip {
+	width:100%;
+}
+.textdescrip input{
+	font-family:'Norse';
+	font-size: 20px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+.textdescrip select{
+	font-family:'Norse';
+	font-size: 20px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+
+
+.charname input{
+	font-family:'Norse';
+	font-size: 38px;
+	color:#671308;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+
+.textdescripsec {
+	width:100%;
+	margin:0px;
+}
+.textdescripsec input{
+	font-family:'Norse';
+	font-size: 18px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+
+.chat-message .message-content h1{
+font-family:'Norse';
+	font-size:30px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'Norse';
+	font-size:25px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+	font-family:'Norse';
+	font-size:18px;
+	text-align:center;
+	border:0px;
+}
+
+hr {
+	display:none;
+}
+.chat-message .message-content .chat-form {
+	background: url(../images/fondo.webp);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	background-clip: border-box;
+	border-width: 18px;
+ 	border-style: solid;
+ 	border-image: url(../images/MarcoFoto.webp);
+ 	border-image-slice: 100;
+ 	border-image-repeat: repeat;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Norse';
+	text-align:center;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #671308;
+	white-space: normal;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Norse';
+	text-wrap: wrap;
+	font-size:10px;
+}
+
+.sheet .custom-system-actor header.sheet-header .profile-img-container{
+	border-width: 18px;
+ 	border-style: solid;
+ 	border-image: url(../images/MarcoFoto.webp);
+ 	border-image-slice: 60;
+ 	border-image-repeat: repeat;
+}
+.chat-portrait-message-portrait-generic {
+	border-width: 18px;
+ 	border-style: solid;
+ 	border-image: url(../images/MarcoFoto.webp);
+ 	border-image-slice: 60;
+ 	border-image-repeat: repeat;
+}
+
+
+
+/* Estilo para los contenedores de los dados */
+.one, .two, .three, .four, .five, .six {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Iconos de dados de FontAwesome */
+.one::before { content: "\f525"; } /* fa-dice-one */
+.two::before { content: "\f528"; } /* fa-dice-two */
+.three::before { content: "\f527"; } /* fa-dice-three */
+.four::before { content: "\f524"; } /* fa-dice-four */
+.five::before { content: "\f523"; } /* fa-dice-five */
+.six::before { content: "\f526"; } /* fa-dice-six */
+
+/* Estilo para el radio button seleccionado y su contenedor */
+input[type="radio"]:checked + .one::before,
+input[type="radio"]:checked + .two::before,
+input[type="radio"]:checked + .three::before,
+input[type="radio"]:checked + .four::before,
+input[type="radio"]:checked + .five::before,
+input[type="radio"]:checked + .six::before {
+  color: #ff0000; /* Color negro para el seleccionado */
+  background-color: #ff0000; /* Color rojo para el seleccionado */
+}
+
+/* Efecto hover para todos los dados */
+.one:hover::before,
+.two:hover::before,
+.three:hover::before,
+.four:hover::before,
+.five:hover::before,
+.six:hover::before {
+  color: #ff0000; /* Color rojo al pasar el ratón */
+}
+
+.one:checked.one::before::before{
+  background-color:red;
+}

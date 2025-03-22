@@ -1,0 +1,15 @@
+{
+  "title": "Broken Soul",
+  "id": "broken-soul",
+  "system": "custom-system-builder",
+  "joinTheme": "minimal",
+  "coreVersion": "12.331",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "systemVersion": "4.4.2",
+  "lastPlayed": "Sat Mar 22 2025 12:27:25 GMT+0000 (Coordinated Universal Time)",
+  "playtime": 2064012,
+  "background": "worlds/broken-soul/Fuentes/descarga.jpg"
+}
