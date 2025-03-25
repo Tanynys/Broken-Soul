@@ -22,11 +22,11 @@ Descargar archivo ZIP del repositorio (ver imagen), descomprimir, cambiar nombre
 
 Opción 2
 
-Buscar el módulo en el directorio de módulos de Foundry "Trueque (CSB) (ES)" y hacer click en install (ver imagen)
+Buscar el módulo en el directorio de módulos de Foundry "Broken Soul (CSB) (ES)" y hacer click en install (ver imagen)
 
 ![Broken-2](https://github.com/user-attachments/assets/b3d4dbce-b1fe-436b-b561-77b5b1fd083f)
 
-Crear un nuevo mundo en blanco con el sistema custom system builder. (ver imagen)
+Crear un nuevo mundo en blanco con el sistema Custom System Builder. (ver imagen)
 
 ![Broken-3](https://github.com/user-attachments/assets/7ab5be60-3b74-45d0-87c4-602ff12c8a0f)
 
